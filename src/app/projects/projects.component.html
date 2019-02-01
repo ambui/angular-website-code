@@ -1,0 +1,22 @@
+<div class = "container" style="max-width:1600px; padding-top: 0.5%">
+    <h1 class="display-5">My Projects</h1>
+</div>
+<br>
+<div class = "container" style="max-width:90%; padding-top: 0.5%">
+  <div class="row">
+    <div class="col-md-auto">
+      <ul class="projects">
+          <li *ngFor="let project of projects" 
+              [class.selected]="project === selectedProject"
+              (click)="onSelect(project)">
+            <span class="badge">{{project.title}}</span>
+          </li>
+        </ul>
+    </div>
+    <div class="col">
+        <app-project-detail [project]="selectedProject"></app-project-detail>
+    </div>
+  </div>
+</div>
+
+

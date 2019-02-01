@@ -1,0 +1,13 @@
+<div *ngIf="project">
+  <div class="jumbotron jumbotron-fluid"style="padding-top:2%; padding-bottom: 2%">
+      <div class="container" style="max-width:1600px">
+        <h1 class="display-5">{{project.title | uppercase}}</h1>
+          <!-- <p class="lead" style="font-size:100%" [innerHTML]="project.desc">
+            {{project.desc}}
+          </p> -->
+          <img src={{project.image}}> 
+          <div [innerHTML]="project.desc">
+          </div>
+      </div>
+  </div>
+</div>

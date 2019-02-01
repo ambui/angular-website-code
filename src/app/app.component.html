@@ -1,0 +1,15 @@
+<header>
+<nav class = "site-header stick-top py-1" style="background-color:rgba(0, 0, 0, .85)">
+    <div class="container d-flex flex-column flex-md-row justify-content-between" style="vertical-align:bottom">
+        <h1 class="col-4" >{{ title }}</h1>
+        <a class = "py-2 d-none d-md-inline-block" routerLink="/about">About</a>
+        <a class = "py-2 d-none d-md-inline-block" routerLink="/projects">Projects</a>
+        <a class = "py-2 d-none d-md-inline-block" routerLink="/skills">Skills</a>
+        <a class = "py-2 d-none d-md-inline-block" routerLink="/work">Work Experience</a>
+    </div>        
+</nav>
+</header>
+<!--main [@fadeAnimation]="o.isActivated ? o.activatedRoute : ''">
+    <router-outlet #o="oulet"></router-outlet>
+</main-->
+<router-outlet></router-outlet>

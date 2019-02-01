@@ -1,0 +1,20 @@
+h1 {
+    font-size:250%;
+    color: whitesmoke;
+}
+
+h2 {
+    font-size: 120%;
+    color: #fff3dd;
+}
+
+a{
+  font-size: 110%;
+}
+
+router-outlet ~ * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+

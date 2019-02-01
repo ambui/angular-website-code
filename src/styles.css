@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #efefef;
+}
+
+p {
+    background-color: rgb(211, 208, 203,0.5);
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
