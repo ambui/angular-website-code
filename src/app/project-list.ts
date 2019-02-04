@@ -3,7 +3,7 @@ import { Project } from './project';
 export const PROJECTS: Project[] = [
     {   
         title: 'Real Estate Web-App',
-        desc: '<p>This Web App was my CSE 445(Distributed Systems) final project. It was coded with C# and using the ASP.NET framework. It is a conglomeration many of the concepts I learned over the semester. Through the use of REST APIs and WCF Services I developed, the app takes location data and returns relevant information about the surroundings (weather, restraunts, stores, etc.). It also has forms authentication with encrypted user data.</p> <hr> <a class="btn btn-primary" href="https://github.com/ambui/RealEstateApp" role="button">View on Github&#187;</a>',
+        desc: '<p>This Web App was my CSE 445(Distributed Systems) final project. It was coded with C# and using the ASP.NET framework. It is a conglomeration of many of the concepts I learned over the semester. Through the use of REST APIs and WCF Services I developed, the app takes location data and returns relevant information about the surroundings (weather, restraunts, stores, etc.). It also has forms authentication with encrypted user data.</p> <hr> <a class="btn btn-primary" href="https://github.com/ambui/RealEstateApp" role="button">View on Github&#187;</a>',
         image: './assets/projects/realEstApp.PNG'
     },
     {
